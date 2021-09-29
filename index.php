@@ -9,7 +9,7 @@ $color=imagecolorallocate($im,255,100,100);
 imagefttext($im,60,0,150,650,$color,$font,$txt);
 imagepng($im,"output/output.png");
 ?>
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
